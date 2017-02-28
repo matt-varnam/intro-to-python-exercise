@@ -82,4 +82,4 @@ print (forward)
 print (backward)
 forward.reverse()
 if forward == backward:
-    print('Check complete')
+    print('Check completedd')
