@@ -79,7 +79,7 @@ if x: print x, " is True" #Output ""
 #Question 1
 mylist = [0,1,2,3,4,5]
 print (mylist[1])
-print (mylist[-2])
+print (mylist[len(mylist)-2])
 print (mylist[:])
 print (mylist[1:4])
 
