@@ -13,9 +13,9 @@ print("They think it's all over!")
 with open('weather.csv', 'r') as myfile:
     liner = myfile.readline()[:-1]
     while liner:
-	if liner != "":
+	    if liner != "":
             print (liner)
-	liner = myfile.readline()[:-1]
+	    liner = myfile.readline()[:-1]
 
 print("It is now!")
 
